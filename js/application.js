@@ -39,7 +39,12 @@ function goForward() {
 		$('body').css('background', colorchange);
 		$('#colorcode h1').text(colorchange.toUpperCase());
 		colorArray.push($('#colorcode h1').text());
-		arrLocation++;
+		if (colorArray.length >= 100) {
+			colorArray.shift();
+		}
+		else {
+			arrLocation++;
+		}
 	}
 }
 
