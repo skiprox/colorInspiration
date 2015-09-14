@@ -1,0 +1,24 @@
+{
+  "name": "color-inspiration",
+  "version": "1.0.0",
+  "description": "Color inspiration",
+  "main": "color-inspiration.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skiprox/colorInspiration.git"
+  },
+  "author": "skiprox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skiprox/colorInspiration/issues"
+  },
+  "homepage": "https://github.com/skiprox/colorInspiration#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.1",
+    "load-grunt-tasks": "^3.2.0"
+  }
+}
